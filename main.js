@@ -61,7 +61,7 @@ else : se invece e' uguale ad all sarrano appese tutte */
 						var selected = album;
 						var html = template(selected);
 						$('.cds-container').append(html);
-					} else if (album.genre === 'all') {
+					} else if (genere === 'all') {
 						var selected = album;
 						var html = template(selected);
 						$('.cds-container').append(html);
