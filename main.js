@@ -48,7 +48,7 @@
 4 step : creo una variabile dove salvare ogni singolo che mi interessa durante il ciclo
 5 step : imposto una condizione if else
 if : il mio album[album.genre] e' uguale al valore della variabile genere , la nuova var selected sara appesanel mio template
-else : se invece e' il genere e' uguale ad all li appendera tutti
+else : se invece e' il genere e' uguale ad all li appendera tutti*/
 		function estrapolateGenre(a){
 			$('.cds-container').text('');
 				var arrAlbum = a.response;
